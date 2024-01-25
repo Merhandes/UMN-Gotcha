@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pet Simulator | Kelompok 1</title>
+    <link href="css/Style.css" rel="stylesheet" />
+  </head>
+
+  <video
+    id="background-video"
+    autoplay
+    loop
+    muted
+    poster="images/BgVideo.mp4"
+  >
+    <source src="images/BgVideo.mp4" type="video/mp4" />
+  </video>
+
+  <body>
+    <img src="images/pets.png" alt="" class="paw" />
+    <h1 class="gotcha">UMN Gotcha</h1>
+    <hr />
+    <br />
+
+    <div class="w3-content w3-display-container">
+      <img class="mySlides" src="images/dog.png" style="width: 20%" />
+      <img class="mySlides" src="images/cat.png" style="width: 20%" />
+
+      <button class="w3-button w3-black w3-display-left" onclick="plusDivs(-1)">
+        &#10094;
+      </button>
+      <button class="w3-button w3-black w3-display-right" onclick="plusDivs(1)">
+        &#10095;
+      </button>
+    </div>
+
+    <br />
+    <h3 class="gotcha">Enter Pet Name Here. . .</h3>
+
+    <input type="text" class="text" name="NamaPet" />
+    <br />
+    <form action="game.html" method="get">
+      <button type="submit" class="submit">Next</button>
+    </form>
+    <br />
+
+    <script src="javascript/Pet.js"></script>
+  </body>
+</html>

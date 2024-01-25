@@ -1,0 +1,114 @@
+/* CSS BUAT BACKGROUND VIDEO */
+#background-video {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+/* CSS BUAT PILIH KARAKTER */
+.paw {
+  margin: auto;
+  display: block;
+  width: 100px;
+}
+
+.gotcha {
+  text-align: center;
+  font-family: "Comic Sans MS";
+  color: black;
+}
+
+/* CSS BUAT SLIDESHOW IMAGE */
+
+.mySlides {
+  display: none;
+  margin: auto;
+}
+
+.w3-btn,
+.w3-button {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+.w3-tooltip,
+.w3-display-container {
+  position: relative;
+}
+.w3-tooltip .w3-text {
+  display: none;
+}
+.w3-tooltip:hover .w3-text {
+  display: inline-block;
+}
+
+.w3-display-middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.w3-display-left {
+  position: absolute;
+  top: 50%;
+  left: 0%;
+  transform: translate(0%, -50%);
+  -ms-transform: translate(-0%, -50%);
+}
+.w3-display-right {
+  position: absolute;
+  top: 50%;
+  right: 0%;
+  transform: translate(0%, -50%);
+  -ms-transform: translate(0%, -50%);
+}
+
+/* CSS BUAT INPUT NAMA */
+.text {
+  background-color: gainsboro;
+  border-color: black;
+  font-family: "Comic Sans MS";
+  border-radius: 10px;
+  width: 100px;
+  padding: 10px 50px 5px;
+  margin: auto;
+  display: block;
+}
+
+.text:hover {
+  background-color: wheat;
+}
+
+/* CSS BUAT TOMBOL BUTTON PLAY */
+.submit {
+  background-color: aqua;
+  border-color: black;
+  color: black;
+  text-shadow: 1px 1px 1px black;
+  font-family: "Comic Sans MS";
+  border-radius: 10px;
+  padding: 10px 10px;
+  width: 100px;
+  cursor: pointer;
+  margin: auto;
+  display: block;
+}
+
+.submit:hover {
+  background-color: wheat;
+}

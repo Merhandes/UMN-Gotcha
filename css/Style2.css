@@ -1,0 +1,49 @@
+canvas {
+  background-image: url("images/malam.jpg");
+  background-size: cover;
+  width: 100%;
+  border: 3px solid black;
+}
+
+.button {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: white;
+  background-color: navy;
+  border-color: black;
+}
+
+#button {
+  text-align: center;
+  margin: auto;
+  width: 600px;
+}
+
+.return {
+  margin: auto;
+  font-size: 20px;
+}
+
+/* CSS BUAT TOMBOL BUTTON PLAY */
+.submit {
+  background-color: aqua;
+  border-color: black;
+  color: black;
+  text-shadow: 1px 1px 1px black;
+  font-family: "Comic Sans MS";
+  border-radius: 10px;
+  padding: 10px 10px;
+  width: 100px;
+  cursor: pointer;
+  margin: auto;
+  display: block;
+}
+
+.submit:hover {
+  background-color: wheat;
+}
